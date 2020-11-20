@@ -17,4 +17,6 @@ let wrapAdjective = function(style="*") {
 }
 
 //4.
-const Calculator = 
+const Calculator = {
+  
+}
