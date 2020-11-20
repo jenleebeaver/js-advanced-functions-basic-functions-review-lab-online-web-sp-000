@@ -1,6 +1,19 @@
 // Your code here
 //1.
 function saturdayFun(activity="roller-skate") {
-  console.log(`This Saturday, I want to ${activity}!`)
+  return `This Saturday, I want to ${activity}!`
 }
-saturdayFun()
+
+//2.
+let mondayWork = function(activity="go to the office") {
+  return `This Monday, I will ${activity}.`
+}
+
+//3.
+let wrapAdjective = function(style="*") {
+  return function(parameter="special"){
+    return `You are ${style}${parameter}${style}!`
+  }
+}
+
+//4.
